@@ -15,7 +15,6 @@ O presente código simula um semáforo. E o intervalo entre as cores
 #define LedG 11 //Led Verde no pino 11
 
 // Variáveis globais uteis no código
-absolute_time_t turn_off_time;  // Armazena o tempo em que o led deverá ser desligado
 static volatile uint ordem =1; //Indica a ordem de acionamento dos leds  
 
 //Função para inicializar e configurar pinos dos Leds
