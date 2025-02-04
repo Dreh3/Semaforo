@@ -23,11 +23,11 @@ Ao executar o código no simulador, o Led Amarelo será visível. No entanto, ao
 
 __Aplicação de temporizadores__  <br>
 
-A atividade 1 utiliza temporizadores periódicos para fazer o acionamento dos Leds no tempo especificado. Para isso é necessário criar a seguinte função:
+A atividade 1 utiliza temporizadores periódicos para fazer o acionamento dos Leds no tempo especificado. Para isso, é necessário criar a seguinte função:
 ```bash
 bool repeating_timer_callback(struct repeating_timer *t)
 ```
-Essa função contèm a lógica para acionamento intercalado dos leds, que é chamada na main pela função callback a cada 3 segundos. Sendo necessário adicionar as seguintes linhas de código na main:
+Essa função contém a lógica para acionamento intercalado dos leds, que é chamada na main pela função callback a cada 3 segundos. É preciso adicionar as seguintes linhas de código na main:
 ```bash
 struct repeating_timer timer;
 add_repeating_timer_ms(3000, repeating_timer_callback, NULL, &timer);
