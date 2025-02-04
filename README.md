@@ -14,7 +14,7 @@ __Os Componentes necessários para a simulação da atividade no Wokwi Integrado
 2) 03 LEDs (vermelho, amarelo e verde).
 3) 03 Resistores de 330 Ω.
 
-Os componentes acima já estão presente no kit de Desenvolvimento Bit Dog Lab.
+Os componentes acima já estão presentes no kit de Desenvolvimento Bit Dog Lab.
 
 __As funcionalidade básicas especificadas para a atividade são:__
 1) Acionar os leds um a um a cada 3 segundos, na seguinte ordem: vermelho, amarelo, verde.
