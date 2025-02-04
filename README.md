@@ -34,7 +34,7 @@ Após 3 segundos, o Led Vermelho é desligado e o Led Amarelo passa a ficar liga
 ```bash
 Sinal Amrarelo! Atenção!
 ```
-Após outros 3 segundos, o led amarelo é desligado e o próximo led é ligado, led verde. E a mensagem abaixo aparece:
+Após outros 3 segundos, o Led Amarelo é desligado e o próximo led é ligado, Led Verde. E a mensagem abaixo aparece:
 ```bash
 Sinal Verde! Siga!
 ```
@@ -46,9 +46,10 @@ Obedeça a sinalização!
 
 ## Passos para uso do código
 
-Os arquivos presentes no repositório são fundamentais para a execução do projeto. Assim, o primeiro passo é clonar o atual repositório 'Semaforo' no seu computador para poder rodá-lo no VS Code. Vale resaltar que para o devido funcionamento do simulador é necessário ter o Wokwi Integrado.
+Os arquivos presentes no repositório são fundamentais para a execução do projeto. Assim, o primeiro passo é clonar o atual repositório 'Semaforo' no seu computador para poder rodá-lo no VS Code. Vale ressaltar que para o devido funcionamento do simulador é necessário ter o Wokwi Integrado.
 
 ### 1. Clonar repositório
+Abra a pasta que deseja armazenar o projeto no VS Code. Depois, abra um Terminal e cole a linha de comando abaixo:
 ```bash
 git clone 'endereço do respositório'
 ```
@@ -57,14 +58,14 @@ git clone 'endereço do respositório'
 Após clonar, é necessário abrir a pasta do projeto para que o VS Code possa reconstruir a pasta 'build' e assim poder executar o código com sucesso.
 
 ### 3. Compilar o código
-Compilar o código é um passo essencial para gerar os arquivos necessários e adicionar as bibliotecas do CMakeLists.txt.
+Compilar o código é um passo essencial para gerar os arquivos necessários para usra o simulador e adicionar as bibliotecas do CMakeLists.txt.
 
 ### 4. Simulador Wokwi 
 Após os passos acima, o último passo necessário é abrir o arquivo diagram.json. Assim, o simulador Wokwi integrado irá iniciar e o projeto poderá ser visualizado.
 
-### 4. Placa
-Os passos acima, são os mesmos para poder carregar o programa na placa. A única diferença é que o 3° passo não é essencial. Assim, depois de abrir o arquivo, basta selecionar a opção 'Run' na barra inferior do VS Code para que o Semáforo passe a funcionar na placa.
+### 5. Placa
+Todos os passos citados aplicam-se para carregar o código no ki de Desenvolvimento Bit Dog Lab. A única diferença é que o 4° passo não é essencial. Assim, após o passo 3, basta selecionar a opção 'Run' na barra inferior do VS Code para que o Semáforo passe a funcionar na placa.
 
 <div align="center">
-  <img src="https://github.com/Dreh3/Tarefa1/blob/fb1782612d69e62c9580bbad365e0a59a8eaa65a/zero.png?raw=true" alt="imagem" width="300"/>
+  <img src="" alt="imagem" width="300"/>
 </div>
