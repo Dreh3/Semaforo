@@ -51,7 +51,7 @@ Os arquivos presentes no repositório são fundamentais para a execução do pro
 ### 1. Clonar repositório
 Abra a pasta que deseja armazenar o projeto no VS Code. Depois, abra um Terminal e cole a linha de comando abaixo:
 ```bash
-git clone 'endereço do respositório'
+git clone https://github.com/Dreh3/Semaforo.git
 ```
 
 ### 2. Abrir a pasta do projeto
