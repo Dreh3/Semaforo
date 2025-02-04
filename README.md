@@ -1,6 +1,6 @@
  # Semáforo 
 
-__Atividade 1 da Traefa 2 - Aula Síncrona 29/01__<br>
+__Atividade 1 da Tarefa 2 - Aula Síncrona 29/01__<br>
 Repositório criado com o intuito de realizar a Atividade 1 da Tarefa 2 da aula Síncrona do dia 29 de janeiro de 2025 sobre Clocks e Temporizadores.
 
 __Responsável pelo desenvolvimento:__
@@ -17,9 +17,9 @@ __Os Componentes necessários para a simulação da atividade no Wokwi Integrado
 Os componentes acima já estão presente no kit de Desenvolvimento Bit Dog Lab.
 
 __As funcionalidade básicas especificadas para a atividade são:__
-1) Acionar os leds um a uma cada 3 segundos, na seguinte ordem: Vermelho, Amarelo, Verde.
+1) Acionar os leds um a um a cada 3 segundos, na seguinte ordem: vermelho, amarelo, verde.
 
-Ao executar o código no simulador, o Led Amarelo será visível. No entanto, ao executar na placa, o led Azul será visto no lugar do Amarelo.
+Ao executar o código no simulador, o Led Amarelo será visível. No entanto, ao executar na placa, o led amarelo é substituído pelo azul.
 
 
 __A simulação do projeto pode ser visualizada no seguinte link: [Simulação com Wokwi Web - Semáforo](https://wokwi.com/projects/421970356059537409).__
@@ -32,14 +32,14 @@ Sinal Vermelho! Pare!
 ```
 Após 3 segundos, o Led Vermelho é desligado e o Led Amarelo passa a ficar ligado, com a seguinte mensagem:
 ```bash
-Sinal Vermelho! Pare!
+Sinal Amrarelo! Atenção!
 ```
-Novamente após 3 segundos, o led ligado, amarelo, é desligado e o próximo led é ligado, o Verde. E a mensagem abaixo aparece:
+Após outros 3 segundos, o led amarelo é desligado e o próximo led é ligado, led verde. E a mensagem abaixo aparece:
 ```bash
 Sinal Verde! Siga!
 ```
 Os passos acima repetem enquanto o programa estiver rodando.
-Ademais, a cada 1 segundo um outra mensagem aparece:
+Ademais, a cada 1 segundo uma outra mensagem aparece:
 ```bash
 Obedeça a sinalização!
 ```
@@ -47,19 +47,23 @@ Obedeça a sinalização!
 ## Passos para uso do código
 
 Os arquivos presentes no repositório são fundamentais para a execução do projeto. Assim, o primeiro passo é clonar o atual repositório 'Semaforo' no seu computador para poder rodá-lo no VS Code. Vale resaltar que para o devido funcionamento do simulador é necessário ter o Wokwi Integrado.
-###1° Passo: Clonar repositório
+
+### 1. Clonar repositório
 ```bash
 git clone 'endereço do respositório'
 ```
 
-###2° Passo: Abrir Projeto
+### 2. Abrir a pasta do projeto
 Após clonar, é necessário abrir a pasta do projeto para que o VS Code possa reconstruir a pasta 'build' e assim poder executar o código com sucesso.
 
-###3° Passo: Executar diagram.json
-Após os passos acima, o último passo necessário é selecionar o arquivo diagram.json. Assim, o simulador Integrado irá iniciar e o projeto poderá ser visualizado.
+### 3. Compilar o código
+Compilar o código é um passo essencial para gerar os arquivos necessários e adicionar as bibliotecas do CMakeLists.txt.
 
-###Extra: Placa
-Os passos acima, são os mesmos para poder carregar o programa na placa. A única diferença é que o 3° passo não é essencila. Assim, depois de abrir o arquivo, basta selecionar a opção 'Run' para que o Semáforo passe a funcionar na placa.
+### 4. Simulador Wokwi 
+Após os passos acima, o último passo necessário é abrir o arquivo diagram.json. Assim, o simulador Wokwi integrado irá iniciar e o projeto poderá ser visualizado.
+
+### 4. Placa
+Os passos acima, são os mesmos para poder carregar o programa na placa. A única diferença é que o 3° passo não é essencial. Assim, depois de abrir o arquivo, basta selecionar a opção 'Run' na barra inferior do VS Code para que o Semáforo passe a funcionar na placa.
 
 <div align="center">
   <img src="https://github.com/Dreh3/Tarefa1/blob/fb1782612d69e62c9580bbad365e0a59a8eaa65a/zero.png?raw=true" alt="imagem" width="300"/>
