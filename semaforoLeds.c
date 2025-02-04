@@ -40,8 +40,7 @@ void config(){
 // Função de callback que será chamada pelo temporizador repetidamente a cada 3 segundo para alternar entre os leds
 bool repeating_timer_callback(struct repeating_timer *t) {
 
-    //Verifica se o tempo foi atingido
-    if (absolute_time_diff_us(get_absolute_time(),turn_off_time) <=0){
+   
       if(ordem == 0){       //Verifica se a variável 'ordem' tem valor 0
         gpio_put(LedR, 1);  //Se tiver, é a vez de ligar o led Vermelho
         printf("\nSinal Vermelho! Pare!\n\n"); //Mensagem para descrever o momento atual do código
@@ -72,7 +71,6 @@ bool repeating_timer_callback(struct repeating_timer *t) {
         //Retorna valor de 'ordem' para 0, indicando que o led vermelho é o próximo
         ordem=0;
       };
-    };
 
     //Permite que a função repita
     return true;
