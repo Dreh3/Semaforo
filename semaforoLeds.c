@@ -7,6 +7,7 @@ O presente código simula um semáforo. E o intervalo entre as cores
 
 #include "pico/stdlib.h"   
 #include "hardware/timer.h" 
+#include <stdio.h>
 
 // Definindo os pinos para o LEDs 
 #define LedR 13 //Led Vermelho no pino 13
